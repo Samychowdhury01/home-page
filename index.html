@@ -1,25 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Tailwind CSS CLI -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome icons CLI -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+
     <title>Home Page</title>
-</head>
-<body>
+  </head>
+  <body class="max-w-screen-xl mx-auto">
     <!-- Header section -->
     <header>
-        <!-- top nav section -->
-        <div>
-
+      <!-- top nav section -->
+      <div
+        class="top-nav h-16 text-white text-xl flex items-center justify-between p-5"
+      >
+        <div class="flex flex-col md:flex-row items-center md:gap-5">
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            <span class="font-serif">01885708198</span>
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <span class="font-serif">help@gmail.com</span>
+          </p>
         </div>
-        <!-- Navbar starts here -->
-        <nav>
-
-        </nav>
+        <!-- Social Icons -->
+        <div class="text-2xl flex items-center gap-5">
+          <i class="fa-brands fa-facebook hover-effect"></i>
+          <i class="fa-brands fa-twitter hover-effect"></i>
+          <i class="fa-brands fa-youtube hover-effect"></i>
+          <i class="fa-brands fa-linkedin hover-effect"></i>
+        </div>
+      </div>
+      <!-- Navbar starts here -->
+      <nav>
+        <div class="navbar bg-base-200 shadow-lg">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>হোম</a></li>
+                <li><a>আমাদের সম্পর্কে</a></li>
+                <li><a>সাফল্যের গল্প</a></li>
+                <li>
+                  <a>কোর্স সমূহ</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li><a>তুমি ডাক্তার</a></li>
+                <li><a>বইসমূহ</a></li>
+                <li>
+                  <a>হেল্প লাইন</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class="uppercase text-lg md:text-2xl">Dr. Rizvy sir</p>
+              <p class="text-xs md:text-sm">HSC & MEDICAL ADMISSION</p>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-xl">
+              <li><a>হোম</a></li>
+              <li><a>আমাদের সম্পর্কে</a></li>
+              <li><a>সাফল্যের গল্প</a></li>
+              <li tabindex="0">
+                <details>
+                  <summary>কোর্স সমূহ</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a>তুমি ডাক্তার</a></li>
+              <li><a>বইসমূহ</a></li>
+              <li tabindex="0">
+                <details>
+                  <summary>হেল্প লাইন</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <!-- <a class="btn btn-primary text-white hover:bg-white">Join US</a> -->
+            <button>Join US</button>
+          </div>
+        </div>
+      </nav>
+      <!-- nav ends here -->
     </header>
-    
-</body>
+    <main>
+      <!-- hero section -->
+      <section>
+        <div class="hero bg-base-200 md:p-5">
+          <div class="hero-content flex-col lg:flex-row-reverse gap-10 md:gap-20">
+            <div>
+              <!-- ! Image -->
+              <img
+                src="./hardy.png"
+                class="md:max-w-sm rounded-lg"
+              />
+
+              <!-- ? Video from folder -->
+              <!-- <video width="640" height="360" controls>
+              <source src="https://www.youtube.com/watch?v=tvfxAJ6di8Y" type="video/mp4">
+              Your browser does not support the video tag.
+            </video> -->
+
+              <!-- Youtube Video -->
+              <!-- <iframe
+                class="w-full md:w-[560px] md:h-[315px]"
+                src="https://www.youtube.com/embed/tvfxAJ6di8Y"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe> -->
+            </div>
+            <div class="">
+              <h4>রসায়ন শিখার অনলাইন প্লাটফর্মে আপনাকে স্বাগতম।</h4>
+              <p class="py-5 styled-text text-5xl">
+                গল্প, ছন্দ, লাজক ও ম্যাজিকে <br />
+                রসায়নের রস আরোহন করতে <br />
+                <span class="text-red-500">আজাদ মালেক</span> স্যারের <br />
+                কোনো বিকল্প নেই.
+              </p>
+              <h4>হাস্যরসে রসায়ন শিখি অতি সহজে।</h4>
+              <button class="mt-5">কোর্স সমূহ</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
