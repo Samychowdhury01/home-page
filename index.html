@@ -134,7 +134,7 @@
     </header>
     <main>
       <!-- hero section -->
-      <section>
+      <section class="mb-20">
         <div class="hero bg-base-200 md:p-5">
           <div class="hero-content flex-col lg:flex-row-reverse gap-10 md:gap-20">
             <div>
@@ -159,7 +159,7 @@
                 allowfullscreen
               ></iframe> -->
             </div>
-            <div class="">
+            <div class="animate-text">
               <h4>রসায়ন শিখার অনলাইন প্লাটফর্মে আপনাকে স্বাগতম।</h4>
               <p class="py-5 styled-text text-5xl">
                 গল্প, ছন্দ, লাজক ও ম্যাজিকে <br />
@@ -169,6 +169,48 @@
               </p>
               <h4>হাস্যরসে রসায়ন শিখি অতি সহজে।</h4>
               <button class="mt-5">কোর্স সমূহ</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero section ends here -->
+      <!-- Carousel section -->
+      <section>
+        <h1 class="text-center"></h1>
+        <div class="carousel w-full md:h-[600px]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <!-- <img src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" /> -->
+            <iframe
+            class="object-cover w-full h-full"
+            src="https://www.youtube.com/embed/tvfxAJ6di8Y"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="object-cover w-full h-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="https://images.unsplash.com/photo-1559223607-a43c990c692c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="object-cover w-full h-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="https://unsplash.com/photos/F8t2VGnI47I" class="object-cover w-full h-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
         </div>
