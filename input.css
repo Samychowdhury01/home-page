@@ -5,12 +5,13 @@
 
 
 
+
 *{
   font-family: 'Hind Siliguri', sans-serif;
 }
 
 .styled-text{
-  font-family: 'Atma', cursive;
+  font-family: 'Baloo Da 2', cursive;
 }
 
 .top-nav {
@@ -28,13 +29,16 @@
 }
 
 /* hover effect for social icons */
-.hover-effect{
+.icon-hover-effect{
   @apply cursor-pointer hover:-translate-y-1 transition-all ease-linear delay-300
 }
 
+.image-hover-effect{
+  @apply hover:scale-110 transition-all delay-300 ease-linear
+}
 
 /* custom button style */
-button {
+.styled-button {
     position: relative;
     padding: 10px 20px;
     border-radius: 7px;
@@ -52,7 +56,7 @@ button {
     transition: all 0.2s ease-in;
   }
   
-  button:hover {
+  .styled-button:hover {
     background: rgb(61, 106, 255);
     box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
     color: white;
@@ -61,13 +65,13 @@ button {
     transition: all 0.2s ease-out;
   }
   
-  button:hover::before {
+  .styled-button:hover::before {
     -webkit-animation: sh02 0.5s 0s linear;
     -moz-animation: sh02 0.5s 0s linear;
     animation: sh02 0.5s 0s linear;
   }
   
-  button::before {
+  .styled-button::before {
     content: '';
     display: block;
     width: 0px;
@@ -101,7 +105,7 @@ button {
     }
   }
   
-  button:active {
+  .styled-button:active {
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: box-shadow 0.2s ease-in;
     -moz-transition: box-shadow 0.2s ease-in;
