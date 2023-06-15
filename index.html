@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Atma:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <!-- fontawesome icons CLI -->
@@ -40,10 +40,10 @@
         </div>
         <!-- Social Icons -->
         <div class="text-2xl flex items-center gap-5">
-          <i class="fa-brands fa-facebook hover-effect"></i>
-          <i class="fa-brands fa-twitter hover-effect"></i>
-          <i class="fa-brands fa-youtube hover-effect"></i>
-          <i class="fa-brands fa-linkedin hover-effect"></i>
+          <i class="fa-brands fa-facebook icon-hover-effect"></i>
+          <i class="fa-brands fa-twitter icon-hover-effect"></i>
+          <i class="fa-brands fa-youtube icon-hover-effect"></i>
+          <i class="fa-brands fa-linkedin icon-hover-effect"></i>
         </div>
       </div>
       <!-- Navbar starts here -->
@@ -126,7 +126,7 @@
           </div>
           <div class="navbar-end">
             <!-- <a class="btn btn-primary text-white hover:bg-white">Join US</a> -->
-            <button>Join US</button>
+            <button class="styled-button">Join US</button>
           </div>
         </div>
       </nav>
@@ -136,13 +136,12 @@
       <!-- hero section -->
       <section class="mb-20">
         <div class="hero bg-base-200 md:p-5">
-          <div class="hero-content flex-col lg:flex-row-reverse gap-10 md:gap-20">
+          <div
+            class="hero-content flex-col lg:flex-row-reverse gap-10 md:gap-20"
+          >
             <div>
               <!-- ! Image -->
-              <img
-                src="./hardy.png"
-                class="md:max-w-sm rounded-lg"
-              />
+              <img src="./hardy.png" class="md:max-w-sm rounded-lg" />
 
               <!-- ? Video from folder -->
               <!-- <video width="640" height="360" controls>
@@ -168,53 +167,169 @@
                 কোনো বিকল্প নেই.
               </p>
               <h4>হাস্যরসে রসায়ন শিখি অতি সহজে।</h4>
-              <button class="mt-5">কোর্স সমূহ</button>
+              <button class="styled-button mt-5">কোর্স সমূহ</button>
             </div>
           </div>
         </div>
       </section>
       <!-- hero section ends here -->
       <!-- Carousel section -->
-      <section>
-        <h1 class="text-center"></h1>
+      <section class="mb-20 px-2">
+        <h1 class="text-center text-3xl md:text-5xl mb-14 styled-text">
+          সফলতার গল্প ও আমাদের কার্যক্রম
+        </h1>
         <div class="carousel w-full md:h-[600px]">
           <div id="slide1" class="carousel-item relative w-full">
             <!-- <img src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" /> -->
             <iframe
-            class="object-cover w-full h-full"
-            src="https://www.youtube.com/embed/tvfxAJ6di8Y"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide4" class="btn btn-circle">❮</a> 
+              class="object-cover w-full h-full"
+              src="https://www.youtube.com/embed/tvfxAJ6di8Y"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
-          </div> 
+          </div>
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="object-cover w-full h-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">❮</a> 
+            <img
+              src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
-          </div> 
+          </div>
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="https://images.unsplash.com/photo-1559223607-a43c990c692c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="object-cover w-full h-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide2" class="btn btn-circle">❮</a> 
+            <img
+              src="https://images.unsplash.com/photo-1559223607-a43c990c692c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
-          </div> 
+          </div>
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="https://unsplash.com/photos/F8t2VGnI47I" class="object-cover w-full h-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide3" class="btn btn-circle">❮</a> 
+            <img
+              src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
         </div>
       </section>
+      <!-- carousel ends -->
+      <!-- Course section -->
+      <section class="mb-20 px-2">
+        <h1 class="text-center text-3xl md:text-5xl mb-14 styled-text">
+          আমাদের অনলাইন কোর্সসমূহ
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <!-- First card -->
+          <div class="card bg-base-100 shadow-xl hover:shadow-2xl">
+            <figure>
+              <img
+              class="image-hover-effect"
+                src="https://www.bondipathshala.com.bd/files/images/courses/640/20230311-1678533601-zoHeLPQg.jpg"
+                alt="class-image"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">ভার্সিটি 'ক' + গুচ্ছ + কৃষি গুচ্ছ 3.0</h2>
+             <div class="flex items-center">
+              <p>
+                <span><i class="fa-solid fa-video"></i></span>
+                <span>১০ টি ক্লাস</span>
+              </p>
+              <p>
+                <span><i class="fa-solid fa-file-signature"></i></span>
+                <span>৫ টি এক্সাম</span>
+              </p>
+             </div>
+             <p class="text-2xl font-semibold mt-3"><span>
+              <i class="fa-solid fa-bangladeshi-taka-sign"></i> 3000
+            </span></p>
+              <div class="card-actions justify-end">
+                <button class="styled-button">বিস্তারিত</button>
+              </div>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="card bg-base-100 shadow-xl hover:shadow-2xl">
+            <figure>
+              <img
+              class="image-hover-effect"
+                src="https://www.bondipathshala.com.bd/files/images/courses/640/20230605-1685966521-foc8Beyk.jpg"
+                alt="class-image"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">ভার্সিটি 'ক' + গুচ্ছ + কৃষি গুচ্ছ 3.0</h2>
+              <div class="flex items-center">
+                <p>
+                  <span><i class="fa-solid fa-video"></i></span>
+                  <span>১০ টি ক্লাস</span>
+                </p>
+                <p>
+                  <span><i class="fa-solid fa-file-signature"></i></span>
+                  <span>৫ টি এক্সাম</span>
+                </p>
+               </div>
+               <p class="text-2xl font-semibold mt-3"><span>
+                <i class="fa-solid fa-bangladeshi-taka-sign"></i> 3000
+              </span></p>
+              <div class="card-actions justify-end">
+                <button class="styled-button">বিস্তারিত</button>
+              </div>
+            </div>
+          </div>
+          <!-- Third -->
+          <div class="card bg-base-100 shadow-xl hover:shadow-2xl">
+            <figure>
+              <img
+              class="image-hover-effect"
+                src="https://www.bondipathshala.com.bd/files/images/courses/640/20230402-1680437518-09cOrNHg.jpg"
+                alt="class-image"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">ভার্সিটি 'ক' + গুচ্ছ + কৃষি গুচ্ছ 3.0</h2>
+              <div class="flex items-center">
+                <p>
+                  <span><i class="fa-solid fa-video"></i></span>
+                  <span>১০ টি ক্লাস</span>
+                </p>
+                <p>
+                  <span><i class="fa-solid fa-file-signature"></i></span>
+                  <span>৫ টি এক্সাম</span>
+                </p>
+               </div>
+               <p class="text-2xl font-semibold mt-3"><span>
+                <i class="fa-solid fa-bangladeshi-taka-sign"></i> 3000
+              </span></p>
+              <div class="card-actions justify-end">
+                <button class="styled-button">বিস্তারিত</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- courses section ends -->
     </main>
   </body>
 </html>
