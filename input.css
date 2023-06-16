@@ -28,6 +28,11 @@
   ); 
 }
 
+
+.section-margin{
+  @apply mb-32 px-2
+}
+
 /* hover effect for social icons */
 .icon-hover-effect{
   @apply cursor-pointer hover:-translate-y-1 transition-all ease-linear delay-300
@@ -35,6 +40,10 @@
 
 .image-hover-effect{
   @apply hover:scale-110 transition-all delay-300 ease-linear
+}
+
+.icon-card{
+  @apply bg-base-200 w-[200px] font-semibold flex flex-col items-center justify-center p-5 rounded-lg
 }
 
 /* custom button style */
