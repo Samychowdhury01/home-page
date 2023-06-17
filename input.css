@@ -12,19 +12,14 @@
 }
 
 .gradient-bg {
-  background: #0f2027; 
+  background: #0f2027;
   background: -webkit-linear-gradient(
     to right,
-    #2c5364,
-    #203a43,
-    #0f2027
+    #2c5364 60%,
+    #203a43 90%,
+    #0f2027 100%
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); 
+  background: linear-gradient(to right, #2c5364 60%, #203a43 90%, #0f2027 100%);
 }
 
 .section-margin {
