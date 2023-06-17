@@ -61,6 +61,9 @@
   @apply object-cover w-full h-full shadow-2xl shadow-[#0f2027] rounded-xl
  
 }
+.book-card-btn{
+  @apply btn bg-transparent border border-white text-white hover:text-black
+}
 
 /* custom button style */
 .styled-button {
