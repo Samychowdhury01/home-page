@@ -37,11 +37,11 @@
 }
 
 .section-margin {
-  @apply mb-32 px-2 ;
+  @apply mb-32 px-2;
 }
 
-.custom-container{
-  @apply max-w-screen-xl mx-auto
+.custom-container {
+  @apply max-w-screen-xl mx-auto;
 }
 
 /* hover effect for social icons */
@@ -57,12 +57,11 @@
   @apply bg-base-200 w-[200px] font-semibold flex flex-col items-center justify-center p-5 rounded-lg;
 }
 
-.book-card-img{
-  @apply object-cover w-full h-full shadow-2xl shadow-[#0f2027] rounded-xl
- 
+.book-card-img {
+  @apply object-cover w-full h-full shadow-2xl shadow-[#0f2027] rounded-xl;
 }
-.book-card-btn{
-  @apply btn bg-transparent border border-white text-white hover:text-black
+.secondary-btn{
+  @apply btn bg-transparent border border-white text-white hover:text-black;
 }
 
 /* custom button style */
@@ -155,7 +154,6 @@
 .animate-text {
   animation: slide-in-left 1s ease-in-out;
 }
-
 
 /* swiperJS styles */
 .swiper {
