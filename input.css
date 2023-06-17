@@ -22,7 +22,7 @@
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 }
 
-.gradient-book-bg {
+.secondary-gradient-bg {
   background: #2c3e50; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -37,7 +37,11 @@
 }
 
 .section-margin {
-  @apply mb-32 px-2;
+  @apply mb-32 px-2 ;
+}
+
+.custom-container{
+  @apply max-w-screen-xl mx-auto
 }
 
 /* hover effect for social icons */
@@ -51,6 +55,11 @@
 
 .icon-card {
   @apply bg-base-200 w-[200px] font-semibold flex flex-col items-center justify-center p-5 rounded-lg;
+}
+
+.book-card-img{
+  @apply object-cover w-full h-full shadow-2xl shadow-[#0f2027] rounded-xl
+ 
 }
 
 /* custom button style */
@@ -138,10 +147,14 @@
   }
 }
 
+/* heros section header animation */
+
 .animate-text {
   animation: slide-in-left 1s ease-in-out;
 }
 
+
+/* swiperJS styles */
 .swiper {
   width: 100%;
   height: 100%;
