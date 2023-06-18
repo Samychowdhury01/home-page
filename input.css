@@ -17,30 +17,48 @@
   background-position: center;
 }
 
-.gradient-bg {
+/* .gradient-bg {
   background: #0f2027;
   background: -webkit-linear-gradient(
     to right,
     #2c5364,
     #203a43,
     #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
-}
+} */
 
-.secondary-gradient-bg {
-  background: #2c3e50; /* fallback for old browsers */
+
+/* .secondary-gradient-bg {
+  background: #2c3e50;
   background: -webkit-linear-gradient(
     to right,
     #4ca1af,
     #2c3e50
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #4ca1af,
     #2c3e50
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
 }
+ */
+
+ .gradient-bg {
+  background-image: url('/images/background-4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+ 
+ 
+ .secondary-gradient-bg{
+  background-image: url('/images/background-3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+
 
 .section-margin {
   @apply mb-32 px-2;
