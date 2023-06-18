@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap");
 
 * {
   font-family: "Hind Siliguri", sans-serif;
@@ -9,6 +8,13 @@
 
 .styled-text {
   font-family: "Baloo Da 2", cursive;
+}
+
+.hero-bg {
+  background-image: url('/images/background.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .gradient-bg {
